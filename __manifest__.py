@@ -28,7 +28,7 @@
     'license': 'AGPL-3',
     'category': 'Extra Tools',
     'summary': '.',
-    'depends': ['yensi'],
+    'depends': ['terceros'],
     'data': [
               'views/familia_m_views.xml',
             ],
