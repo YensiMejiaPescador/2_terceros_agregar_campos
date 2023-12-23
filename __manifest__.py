@@ -20,7 +20,7 @@
 ##############################################################################
 
 {
-    'name': 'Modulo Relacion familiares',
+    'name': 'Modulo Relacion familiare',
     'version': '16.0.1.0.0',
     'author': 'Yensi Mejia',
     'maintainer': 'Yensi Mejia',
