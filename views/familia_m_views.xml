@@ -3,10 +3,10 @@
     <record id="view_familia_m_inh_form" model="ir.ui.view">
         <field name="name">view.familia.m.inh.form</field>
         <field name="model">familia.m</field>
-        <field name="inherit_id" ref="yensi.view_familia_m_form"/>
+        <field name="inherit_id" ref="terceros.view_familia_m_form"/>
         <field name="arch" type="xml">
             <field name="name" position="after">
-                <field name="my_user"/>
+                <field name="my_nickname"/>
             </field>
             <field name="relationship" position="after">
                 <field name="main_user" position="after" widget="boolean_toggle"/>
@@ -20,10 +20,10 @@
     <record id="view_familia_m_inh_tree" model="ir.ui.view">
         <field name="name">view.familia.m.inh.tree</field>
         <field name="model">familia.m</field>
-        <field name="inherit_id" ref="yensi.view_tree_familia_m"/>
+        <field name="inherit_id" ref="terceros.view_tree_familia_m"/>
         <field name="arch" type="xml">
             <field name="name" position="after">
-                <field name="my_user"/>
+                <field name="my_nickname"/>
                 <field name="main_user" position="after" widget="boolean_toggle"/>
             </field>
             <field name="age" position="replace">
