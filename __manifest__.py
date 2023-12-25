@@ -28,7 +28,7 @@
     'license': 'AGPL-3',
     'category': 'Extra Tools',
     'summary': '.',
-    'depends': ['terceros'],
+    'depends': ['1_terceros'],
     'data': [
               'views/familia_m_views.xml',
             ],
